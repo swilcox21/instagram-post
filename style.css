@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+.container {
+    background-color: white;
+    border: 1px solid black;
+    width: 550px;
+    height: 750px;
+    margin: auto;
+    margin-top: 100px;
+}
+.picture img {
+    width: 550px;
+    height: 400px
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 40px;
+    padding: 15px;
+}
+.top-left {
+    display: flex;
+}
+.top-left i {
+    justify-content: flex-start;
+    font-size: 2em;
+    /* float: left; */
+}
+.name {
+    margin-left: 15px;
+}
+.top-left span {
+    justify-content: flex-start;
+    /* float: left;  */
+}
+.top-right i {
+    justify-content: flex-end;
+    /* float: right; */
+    font-size: 2em;
+}
+.middle-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 2em;
+}
+.footer {
+    padding: 15px;
+}
